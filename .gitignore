@@ -1,0 +1,21 @@
+node_modules/
+.next/
+dist/
+build/
+coverage/
+
+# tajne — nikad u git
+.env
+.env.*
+!.env.example
+*.local
+
+# otpremljeni fajlovi i generisani vizuali
+uploads/
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
